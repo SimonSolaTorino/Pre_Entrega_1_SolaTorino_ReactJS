@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #141c2c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +30,83 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*MI PARTE DE CSS*/
+/*CarWidget*/
+.burbuja_cantidad_carrito{
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  background-color: #141c2c; 
+  color: #4f6faf;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+.icono_carrito{
+  height: 35px;
+  width: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.contenedor_cartwidget{
+  margin-top: 20px;
+}
+/*NavBar*/
+.contenedor_logo_header{
+  width: 30%;
+  height: 35%;
+}
+.logo_header{
+  width: 30%;
+  height: 20%;
+  border-radius: 10%;
+}
+.NavBar_mia{
+  background-color: #4f6faf;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.contenedor_imagen_carrito{
+  position: relative;
+  display: inline-block;
+}
+.nav_mia{
+  display: flex;
+  flex-direction: row;
+}
+.boton_nav{
+  background-color: #a3b4d5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+.boton_nav:hover {
+  background-color : #141c2c;
+   
+}
+.boton_nav:active {
+  background-color: #4f6faf; 
+}
+
+.mi_app{
+  display: flex;
+  flex-direction: column;
+  background-color:#141c2c;
+}
+
