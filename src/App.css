@@ -110,3 +110,43 @@
   background-color:#141c2c;
 }
 
+.mi_header{
+  display: flex;
+  flex-direction: row;
+}
+
+.mi_itemcount{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor1_itemcount{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+.cantidad_itemcount{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.botones_itemcount{
+  width: 75%;
+  height: 75%;
+  background-color: #a3b4d5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton_agregar_carrito{
+  background-color: #a3b4d5;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.botones_itemcount:hover, .boton_agregar_carrito:hover{
+  background-color : #4f6faf;
+}

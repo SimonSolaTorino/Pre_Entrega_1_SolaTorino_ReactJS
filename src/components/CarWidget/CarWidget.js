@@ -1,8 +1,8 @@
 import logo_carrito_lleno from '../../images/icono_carrito_lleno.png'
-import logo_carrito_vacio from '../../images/icono_carrito_lleno.png'
+import logo_carrito_vacio from '../../images/icono_carrito_vacio.png'
 
 const CarWidget = () =>{
-    const cantidad_en_carrito = 4
+    const cantidad_en_carrito = 1//0 //1
     
     return (
         <div className='contenedor_cartwidget'>
