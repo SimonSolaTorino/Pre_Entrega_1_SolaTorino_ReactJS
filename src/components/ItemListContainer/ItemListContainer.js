@@ -9,7 +9,7 @@ const ItemListContainer = ({saludo})=>{
 
     useEffect(()=>{
         if(categoryId){ //si existe categoryId traeme las categorias
-            fetch('https://fakestoreapi.com/products/categories')
+            fetch('https://fakestoreapi.com/products/categories/'+categoryId)
             .then(res=>res.json())
             .then(cats =>{setProductos(cats)})
             .catch(e=>console.error(e))
@@ -19,11 +19,9 @@ const ItemListContainer = ({saludo})=>{
             .then(res=>res.json())
             .then(prods =>{setProductos(prods)})
             .catch(e => console.error(e))
-        }//aca se me rompe. en productos se guardan las categorias y para mi no tiene sentido
+        }
         
     }, [categoryId])
-
-    console.table(productos)
 
     return (
         <div>

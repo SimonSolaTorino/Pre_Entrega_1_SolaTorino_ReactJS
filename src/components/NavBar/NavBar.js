@@ -1,7 +1,7 @@
 import logo_leon from '../../images/FINE_LEON_TRANS.png'
 import CarWidget from '../CarWidget/CarWidget';
 import Swal from 'sweetalert';
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
+//import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import { NavLink, Link } from 'react-router-dom'
 
 const NavBar = ()=>{
@@ -32,9 +32,9 @@ const NavBar = ()=>{
                 </div>
                 <CarWidget />
             </nav>
-            <div>
+            {/*<div>
                 <ItemListContainer saludo={"Bienvenido a F!NE"}/>
-            </div>
+        </div>*/}
         </div>
     );
 }

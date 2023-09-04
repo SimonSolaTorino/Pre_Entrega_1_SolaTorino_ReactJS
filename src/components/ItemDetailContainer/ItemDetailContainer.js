@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ItemDetail from '../ItemDetail/ItemDetail'
+import ItemDetail from '../ItemDetail/ItemDetail.js'
 import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = ()=>{
@@ -7,19 +7,21 @@ const ItemDetailContainer = ()=>{
 
     const {itemId} = useParams()
 
-    const traer_productos_con_id = (id_producto)=> {
-        return new Promise((resolved)=>{
-            setTimeout(()=>{
-                resolved(productos.find(prod => prod.id === id_producto))
-            }, 2000)
-        })
+    const traer_productos = async () =>{
+        if(itemId){
+            const response = await fetch('https://fakestoreapi.com/products/'+ itemId)
+            const prod_rta = await response.json()
+            setProductos(prod_rta)
+            console.table(prod_rta)
+        }else{
+            const response = await fetch('https://fakestoreapi.com/products')
+            const prod_rta = await response.json()
+            setProductos(prod_rta)
+        }
     }
 
     useEffect(()=>{
-        traer_productos_con_id(itemId)
-        .then(response => {setProductos(response)})
-        .catch(e => {console.error(e)})
-
+        traer_productos()
     },[itemId])
 
     return(
