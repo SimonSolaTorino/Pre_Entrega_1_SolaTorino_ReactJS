@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<ItemListContainer/>}></Route>
           <Route path='/category/:categoryId'element={<ItemListContainer/>}></Route>
+          <Route path='/category/:categoryId/item/:itemId' element={<ItemDetailContainer/>}></Route>
           <Route path='/item/:itemId' element={<ItemDetailContainer/>}></Route>
           <Route path='*' element={<ImgNotFound/>}></Route>
         </Routes>

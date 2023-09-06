@@ -9,7 +9,7 @@ const ItemListContainer = ({saludo})=>{
 
     useEffect(()=>{
         if(categoryId){ //si existe categoryId traeme las categorias
-            fetch('https://fakestoreapi.com/products/categories/'+categoryId)
+            fetch('https://fakestoreapi.com/products/category/'+ categoryId)
             .then(res=>res.json())
             .then(cats =>{setProductos(cats)})
             .catch(e=>console.error(e))
