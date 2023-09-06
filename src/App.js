@@ -19,7 +19,7 @@ function App() {
           <Route path='/item/:itemId' element={<ItemDetailContainer/>}></Route>
           <Route path='*' element={<ImgNotFound/>}></Route>
         </Routes>
-        <ItemListContainer saludo={"Bienvenido a F!NE"}/>
+        {/*<ItemListContainer saludo={"Bienvenido a F!NE"}/>*/}
       </BrowserRouter>
     </div>
       
