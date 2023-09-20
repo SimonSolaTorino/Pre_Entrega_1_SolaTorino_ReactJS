@@ -12,11 +12,9 @@ const ItemDetailContainer = ()=>{
             const response = await fetch('https://fakestoreapi.com/products/'+ itemId)
             const prod_rta = await response.json()
             setProductos(prod_rta)
-            console.table(prod_rta)
         }else{
             const response = await fetch('https://fakestoreapi.com/products')
             const prod_rta = await response.json()
-            setProductos(prod_rta)
         }
     }
 

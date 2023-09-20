@@ -27,7 +27,7 @@ const Item = ({...productos})=>{
               <p className="card-price">${productos.price}</p>
             </div>
             {/*<button>ver detalle</button>*/}
-            <Link to={`item/${productos.id}`}> ver detalle </Link>
+            <Link to={`item/${productos.id}`}><button className='boton_agregar_carrito'> ver detalle </button></Link>
           </div>
         </div>
     );

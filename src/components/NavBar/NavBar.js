@@ -30,7 +30,7 @@ const NavBar = ()=>{
                     <NavLink to={`/category/jewelery`} className='boton_nav'>ACCESORIES</NavLink>
                     <button onClick={() => mostar_alerta("Todavia no tenemos el sitio CONTACTO disponible :'(")} className='boton_nav'>CONTACTO</button>                    
                 </div>
-                <CarWidget />
+                <Link to={"/cart"}><CarWidget /></Link>
             </nav>
             {/*<div>
                 <ItemListContainer saludo={"Bienvenido a F!NE"}/>
