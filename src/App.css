@@ -171,10 +171,16 @@
   background-color: transparent;
 }
 
+.imagen_card_strong{
+  max-width: 70%;
+  max-height: auto;
+  background-color: transparent;
+}
+
 .item_list{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .item{
@@ -195,4 +201,94 @@
   align-items: center;
   width: 450px;
   margin: 0 auto;
+}
+
+.color_total_price{
+  color: #475b84;
+  font-weight: bold;
+}
+
+.mi_checkout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0.5px solid #475b84;
+  margin-top: 50px;
+}
+
+.fuente_checkout{
+  color: white;
+  font-weight: bold;
+}
+
+.titulo_checkout_item{
+  width: 400px;
+  margin-right: 10px;
+}
+.titulo_greatings{
+  color: #475b84;
+  font-size: 50px;
+  font-weight: bold; 
+  text-align: center;
+}
+.imagen_checkout{
+  width: 10%;
+  height: 15%;
+}
+
+.checkout, .formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_estilo {
+  margin-right: 20px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  padding: 4px 12px;
+  border: none; /* Elimina el borde */
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  background-color: transparent;
+  color: #b0aa9e;
+}
+.titulo_principal_checkout{
+  width: 35%;
+  font-weight: bold;
+  color: #3e4a65;
+}
+.contenedor_boton_form{
+  margin-bottom: 200px;
+}
+
+.contenedor_fin_compra{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor_info_fin_compra{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 25px;
+  margin-bottom: 150px;
+}
+
+.info_fin_compra{
+  color: #3e4a65;
+}
+
+.orden_number{
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }

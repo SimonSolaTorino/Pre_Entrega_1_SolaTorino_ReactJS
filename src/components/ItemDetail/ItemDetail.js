@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import ItemCount from "../ItemCount/ItemCount";
 import { useState, useContext } from "react";
 import { CarritoContext } from "../../context/context";
+import Swal from 'sweetalert2';
 
 const ItemDetail = ({image, title, description, price, id})=>{
   const [cantidad_agregada, setCantidadAgregada] = useState(0)
@@ -18,6 +19,13 @@ const ItemDetail = ({image, title, description, price, id})=>{
     }
     
     agregar_item(item, nueva_cant)
+    Swal.fire({
+      icon: 'success',
+      title: 'Producto agregado al carrito con exito',
+      showConfirmButton: false,
+      timer: 1500,
+    })
+
   }
 
 

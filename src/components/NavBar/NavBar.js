@@ -25,9 +25,9 @@ const NavBar = ()=>{
                 <button onClick={() => mostar_alerta("Todavia no tenemos el sitio CONTACTO disponible :'(")} className='boton_nav'>CONTACTO</button>
             */}
                 <div>
-                    <NavLink to={`/category/men's clothing`} className='boton_nav'>MEN CLOTHES</NavLink>
-                    <NavLink to={`/category/women's clothing`} className='boton_nav'>WOMEN CLOTHES</NavLink>
-                    <NavLink to={`/category/jewelery`} className='boton_nav'>ACCESORIES</NavLink>
+                    <NavLink to={`/category/Proteinas`} className='boton_nav'>PROTEINAS</NavLink>
+                    <NavLink to={`/category/Colagenos`} className='boton_nav'>COLAGENOS</NavLink>
+                    <NavLink to={`/category/Suplemento`} className='boton_nav'>SUPLEMENTOS DIETARIOS</NavLink>
                     <button onClick={() => mostar_alerta("Todavia no tenemos el sitio CONTACTO disponible :'(")} className='boton_nav'>CONTACTO</button>                    
                 </div>
                 <Link to={"/cart"}><CarWidget /></Link>

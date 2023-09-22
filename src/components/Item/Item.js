@@ -20,7 +20,7 @@ const Item = ({...productos})=>{
     return (
         <div className="card item">
           <div className='card_item_list'>
-            <img src={productos.image} alt={productos.title} className="card-img imagen_card" />
+            <img src={productos.image} alt={productos.title} className="card-img imagen_card imagen_card_strong" />
             <div className="card-body">
               <h2 className="card-title">{productos.title}</h2>
               <p className="card-description">{productos.description}</p>

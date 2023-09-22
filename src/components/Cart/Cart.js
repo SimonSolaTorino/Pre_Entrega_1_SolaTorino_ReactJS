@@ -10,7 +10,7 @@ const Cart = ()=>{
     if(cant_total===0){
         return(
             <div>
-                <h1>EL CARRITO ESTA VACIO</h1>
+                <h1 className="color_total_price">EL CARRITO ESTA VACIO</h1>
                 <Link to={"/"}><button className="boton_agregar_carrito">PRODUCTOS</button></Link>
             </div>
         )
@@ -19,7 +19,7 @@ const Cart = ()=>{
     return(
         <div>
             {cart.map(prod => <CartItem key={prod.id} {...prod}/>)}
-            <h3>Total: ${total}</h3>
+            <h3 className="color_total_price">Total: ${total}</h3>
             <button className="boton_agregar_carrito" onClick={()=>limpiar_carrito()}>VACIAR CARRITO</button>
             <Link to={"/checkout"}> <button className="boton_agregar_carrito">finalizar compra</button></Link>
         </div>

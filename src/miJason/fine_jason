@@ -1,0 +1,49 @@
+[
+	{
+		"id": 1,
+		"title": "F!NE SCULPT - Sabor coco",
+		"price": 40500,
+		"description": "Complejo de proteínas y quemadores de grasa, totalmente natural. Su exclusiva fórmula permite definir músculos, disminuir la grasa localizada e inhibir el apetito.",
+		"category": "Proteinas",
+		"image": "https://shop.fineglobal.com/admin/images/500_main.jpg"
+	},
+	{
+		"id": 2,
+		"title": "F!NE STRONG - Sabor frutos rojos",
+		"price": 40500,
+		"description": "Suplemento dietario a base de proteínas de alto valor biológico y péptidos de colágeno. Ayuda al desarrollo de la masa muscular.",
+		"category": "Proteinas",
+		"image": "https://shop.fineglobal.com/admin/images/520_Fine_Redes_Product_BF-03.jpg"
+	},
+	{
+		"id": 3,
+		"title": "F!NE BEAUTY - Sabor multifruta",
+		"price": 24000,
+		"description": "Colágeno bebible. Disminuye y evita la aparición de nuevas arrugas, tonifica la piel aportando luminosidad, mantiene las articulaciones saludables",
+		"category": "Colagenos",
+		"image": "https://shop.fineglobal.com/admin/images/515_beauty1.png"
+	},
+	{
+		"id": 4,
+		"title": "F!NE POWER - Sabor frutos del bosque",
+		"price": 24000,
+		"description": "Colágeno bebible. Aumenta la energía y la recuperación post ejercicio, ayuda a prevenir lesiones y favorece el rendimiento durante el ejercicio.",
+		"category": "Colageno",
+		"image": "https://shop.fineglobal.com/admin/images/511_power1.png"
+	},
+	{
+		"id": 5,
+		"title": "F!NE SMOOTH - Sabor arándanos",
+		"price": 32400,
+		"description": "El aliado perfecto para reducir visiblemente la celulitis. Suplemento dietario ideal para disminuir la adiposidad localizada, otorgando un efecto estimulador del drenaje linfático.",
+		"category": "Suplemento Dietario",
+		"image": "https://shop.fineglobal.com/admin/images/513_smooth%201.png"
+	},
+	{
+		"id": 6,
+		"title": "F!NE Peak - Sabor tropical cream",
+		"price": 32400,
+		"description": "El empujón que necesitabas para llegar a tu cima. Poderoso blend termogénico que te ayuda a bajar de peso. Reduce el apetito, aumenta el gasto calórico y energético y estimula el drenaje linfático. Es antioxidante y antiinflamatorio.",
+		"category": "Suplemento Dietario",
+		"image": "https://shop.fineglobal.com/admin/images/564_peak1.png"
+	}]

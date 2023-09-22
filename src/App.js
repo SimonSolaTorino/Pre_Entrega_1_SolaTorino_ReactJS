@@ -7,6 +7,7 @@ import ImgNotFound from './components/ImgNotFound/ImgNotFound';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './components/Cart/Cart';
 import { CartProvider } from './context/context';
+import Checkout from './components/Checkout/Checkout';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/category/:categoryId/item/:itemId' element={<ItemDetailContainer/>}></Route>
             <Route path='/item/:itemId' element={<ItemDetailContainer/>}></Route>
             <Route path='/cart' element={<Cart/>}></Route>
+            <Route path='/checkout' element={<Checkout/>}></Route>
             <Route path='*' element={<ImgNotFound/>}></Route>
           </Routes>
           {/*<ItemListContainer saludo={"Bienvenido a F!NE"}/>*/}
