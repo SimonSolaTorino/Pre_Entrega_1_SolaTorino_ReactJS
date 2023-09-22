@@ -1,3 +1,5 @@
+Borre todo el readme de react para crear mi propio readme!
+
 Este es mi Proyecto Final del curso de ReactJS de CoderHouse.
 
 Se nos planteo hacer un ecomerce funcional usando lo aprendido en la cursada.
